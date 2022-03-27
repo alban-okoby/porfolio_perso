@@ -3,6 +3,10 @@
 :root{
     --selection: #f9ca24;
     --selection-text: #333;
+    --yellow: #f9ca24;
+    --gray: #333;
+    --header: #1a1a1a;
+    --header-color: #fff;
 }
 *{
     font-family: 'Roboto', sans-serif;
@@ -16,3 +20,69 @@
     background: var(--selection);
     color: var(--color);
 }
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+html::-webkit-scrollbar{
+    width: 1.5rem;
+}
+html::-webkit-scrollbar-track{
+    background: var(--gray);
+}
+html::-webkit-scrollbar-thumb{
+    background: var(--yellow);
+}
+body{
+    background: var(--gray);
+    overflow-x: hidden;
+}
+/* STYLE DU HEADER */
+header{
+    background: var(--header);
+    color: var(--header-color);
+    position: fixed;
+    top: 0; left: 0; 
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+    height: 100%; width: 36rem;
+    flex-flow: column;
+}
+header .utilisateur img{
+    border: solid .6rem var(--yellow);
+    height: 17rem; width:17rem;
+    border-radius: 50%;
+    /* object-fit: cover;
+    -webkit-object-fit: cover;
+    -o-object-fit: cover; */
+}
+header .utilisateur .nom{
+    font-size: 3.2rem;
+}
+header .utilisateur p{
+    font-size: 1.8rem;
+}
+header .navbar{
+    width: 100%;
+}
+header .navbar ul{
+    list-style: none;
+    padding: 1rem 3rem;
+}
+header .navbar ul a{
+    color:var(--header-color);
+    background: var(--gray);
+    display: block;
+    font-size: 1.8rem;
+    border-radius: 5rem;
+    text-decoration: none;
+    padding: 1rem;
+    margin: 1.5rem 0;
+}
+header .navbar ul a:hover{
+    background: var(--yellow)
+}
+/* END HEADER */
