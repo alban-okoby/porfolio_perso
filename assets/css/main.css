@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap'); /* font-family : 'Roboto', sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto:wght@100;300;500&display=swap'); /* 'Dancing Script', cur */
 
 :root{
     --selection: #f9ca24;
@@ -48,7 +49,7 @@ header{
     align-items: center;
     text-align: center;
     justify-content:center;
-    height: 100%; width: 36rem;
+    height: 100%; width: 33.7rem;
     flex-flow: column;
 }
 header .utilisateur img{
@@ -60,10 +61,11 @@ header .utilisateur img{
     -o-object-fit: cover; */
 }
 header .utilisateur .nom{
-    font-size: 3.2rem;
+    font-size: 2.7rem;
 }
 header .utilisateur p{
-    font-size: 1.8rem;
+    font-size: 2.8rem;
+    font-family: 'Tangerine' ,sans-serif;
 }
 header .navbar{
     width: 100%;
@@ -76,13 +78,17 @@ header .navbar ul a{
     color:var(--header-color);
     background: var(--gray);
     display: block;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     border-radius: 5rem;
     text-decoration: none;
-    padding: 1rem;
+    padding: .8rem;
     margin: 1.5rem 0;
+    font-family: 'Dancing Script', cur;
+  
 }
 header .navbar ul a:hover{
-    background: var(--yellow)
+    background: var(--yellow);
+    color: black;
+    font-weight: bold;
 }
 /* END HEADER */
