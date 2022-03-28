@@ -9,6 +9,7 @@
     --header: #1a1a1a;
     --header-color: #fff;
     --menu-icon: #fff;
+    --menu-icon-bg: #444;
 }
 *{
     font-family: 'Roboto', sans-serif;
@@ -95,15 +96,17 @@ header .navbar ul a:hover{
 /* END HEADER */
 
 /* MENU ICON */
-    #menu{
+    #menuIcon{
         color: var(--menu-icon); 
         position: fixed;  
         top:2rem; right:2rem;
-        background: var(--gray); 
-        padding: 1rem 1.5rem;
+        background: var(--menu-icon-bg);
+        padding: 1.1rem 1.5rem;
         z-index: 1000;
         cursor: pointer;
         display: none;
+        font-size: 1.9rem;
+        border-radius : 6px;
     }
 /* END MENU ICON */
 
@@ -117,14 +120,34 @@ header .navbar ul a:hover{
 
 @media screen and (max-width: 991px) {
     header{
-        left: -100%;
+        left: -105%;
     }
-    #menu{
+    #menuIcon{
         display: block;
+    }
+    header.toggle{
+        left: 0%;
+    }
+}
+@media screen and (max-width: 768px) {
+    html{
+        font-size: 50%;
+    }
+    header .navbar ul a{
+        padding: 1rem;
+        margin: 1.1rem 0;
+        font-size: large;
+         
     }
 }
 
-@media screen and (max-width: 322px) {
+@media screen and (max-width: 420px) {
+    header{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 310px) {
     header{
         height: 100%; width: 28.7rem;
     }
