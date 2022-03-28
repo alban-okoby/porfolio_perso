@@ -8,6 +8,7 @@
     --gray: #333;
     --header: #1a1a1a;
     --header-color: #fff;
+    --menu-icon: #fff;
 }
 *{
     font-family: 'Roboto', sans-serif;
@@ -92,3 +93,39 @@ header .navbar ul a:hover{
     font-weight: bold;
 }
 /* END HEADER */
+
+/* MENU ICON */
+    #menu{
+        color: var(--menu-icon); 
+        position: fixed;  
+        top:2rem; right:2rem;
+        background: var(--gray); 
+        padding: 1rem 1.5rem;
+        z-index: 1000;
+        cursor: pointer;
+        display: none;
+    }
+/* END MENU ICON */
+
+/* Media Queries */
+
+@media screen and (max-width: 1200px) {
+    html{
+        font: 55%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    header{
+        left: -100%;
+    }
+    #menu{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 322px) {
+    header{
+        height: 100%; width: 28.7rem;
+    }
+}
