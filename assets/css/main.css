@@ -6,6 +6,8 @@
     --selection: #f9ca24;
     --selection-text: #333;
     --yellow: #f9ca24;
+    --background : #f9ca24;
+    --color : #fff;
     --gray: #333;
     --header: #1a1a1a;
     --header-color: #fff;
@@ -146,28 +148,28 @@ section{
     color: var(--home-span);
 }
 .home .btn{
-    background-color: var(--home-btn);
-    color: var(--black);
+    background-color: var(--menu-icon-bg);
+    color: var(--color);
     padding: .8rem 1.1rem;
-    border: solid 2px var(--home-btn);
+    border: solid 1px var(--home-btn);
     border-radius: 5rem;
     cursor: pointer;
     margin-top: 2rem;
     font-size: 2rem;
 }
+.home .btn:hover{
+    background-color: var(--home-btn);
+    color: var(--black);
+    border: solid 1px var(--color);
+}
 .home .btn i{
     font-size: 1.8rem;
     padding: 0 .6rem;
-    color: var(--home-text);
+    color: var(--color);
 }
 .home .btn:hover i{
-    color: var(--home-btn);
+    color: var(--gray);
     transition: all .1s linear;
-}
-.home .btn:hover{
-    background-color: var(--home);
-    color: var(--home-text);
-    border: solid 2px var(--home-btn);
 }
 /* End Style home */
 
