@@ -2,13 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto:wght@100;300;500&display=swap'); /* 'Dancing Script', cur */
 
 :root{
+    --white: #fff;
     --black: #000;
+    --black-2 : #222;
     --selection: #f9ca24;
     --selection-text: #333;
     --yellow: #f9ca24;
     --background : #f9ca24;
     --color : #fff;
     --gray: #333;
+    --gray-2: #444;
     --header: #1a1a1a;
     --header-color: #fff;
     --menu-icon: #fff;
@@ -131,7 +134,7 @@ section{
     align-items: center;
     flex-flow: column
 }
-.home h2, h3, p, button {
+.home h2,h2, h3, p, button {
     color: var(--home-text);
 }
 .home h2{
@@ -144,20 +147,23 @@ section{
     font-size: 2rem;
     padding: 1rem 0;
 }
-.home h2 span{
+/* .home h2 span{
     color: var(--home-span);
+} */
+ span{
+    color: var(--yellow);
 }
-.home .btn{
+.btn{
     background-color: var(--menu-icon-bg);
     color: var(--color);
-    padding: .8rem 1.1rem;
+    padding: .6rem 1.1rem;
     border: solid 1px var(--home-btn);
     border-radius: 5rem;
     cursor: pointer;
     margin-top: 2rem;
     font-size: 2rem;
 }
-.home .btn:hover{
+.btn:hover{
     background-color: var(--home-btn);
     color: var(--black);
     border: solid 1px var(--color);
@@ -173,8 +179,64 @@ section{
 }
 /* End Style home */
 
-/* Media Queries */
+/* Starts about style section */
+.heading{
+    font-size: 4rem;
+    margin: 0 .5rem;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: solid .2rem #fff4;
+}
+.about .row {
+    padding: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.about .row .info{
+    padding: 2rem 1rem;
+    padding-left: 6rem;
+    flex: 1 1 48rem;
+}
 
+.about .row .info h3{
+    font-size: 2rem;
+    color: var(--yellow);
+    padding: 1rem 0;
+    font-weight: normal;
+}
+.about .row h3 span{
+    font-size: 2rem;
+    color: var(--white);
+    padding: 1rem 0;
+    font-weight: normal;
+}
+.about .row .counter{
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: center;
+    flex: 1 1 48rem;
+    flex-wrap: wrap;
+}
+.about .row .counter .box{
+    background: var(--black-2);
+    width : 18rem;
+    border: .1rem dotted var(--yellow);
+    opacity: .9;
+    border-radius: 4rem 0 4rem 0;
+    text-align: center;
+    padding: 2rem;
+    margin: 1rem;
+}
+.about .row .counter .box span{
+    font-size: 4rem;
+}
+.about .row .counter .box h3{
+    font-size: 2rem;
+}
+/* End about style section */
+
+/* Media Queries */
 @media screen and (max-width: 1200px) {
     html{
         font: 55%;
@@ -214,10 +276,22 @@ section{
     header{
         width: 100%;
     }
+    .heading{
+        margin: 0 .3rem;
+    }
+    /* .about .row .counter .box{
+        width: 100%;
+    } */
 }
 
-@media screen and (max-width: 310px) {
+@media screen and (max-width: 320px) {
     header{
-        height: 100%; width: 28.7rem;
+        height: 100%; ;
+    }
+    .heading{
+        margin: 0 .3rem;
+    }
+    .about .row .counter .box{
+        width: 100%;
     }
 }
