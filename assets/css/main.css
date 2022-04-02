@@ -239,31 +239,32 @@ section{
 /*  Education style section */
     .education .box-container{
         display : flex;
-        justify-content : center;
+        justify-content : space-between;
         flex-wrap : wrap;
         text-align : center;
         padding : 1rem 0;
         padding-left : 3rem;
     }
     .education .box-container .box{
-        width: 26rem;
+        width: 27rem;
         height:4rem 1rem;
-        padding-left: 4rem;
+        padding-left:2rem;
+        margin-bottom: 25rem;
         border-left: solid .3rem var(--white);
         position: relative;
+        margin: 2rem .1rem;
     }
     .education .box-container .box span{
         color: var(--white);
         background-color: var(--gray-2);
         font-size: 1.1rem;
-        padding: .5rem 2.5rem;
+        padding: 1.5rem 2.5rem;
         border-radius: 5rem;
-        /* margin-left: -30rem; */
     }
     .education .box-container .box h3{
-        font-size: 2rem;
         color: var(--white);
-        padding-top: 1.5rem;
+        font-size: 2rem;
+        padding-top: 2.5rem;
     }
     .education .box-container .box p{
         color: var(--white);
@@ -330,6 +331,15 @@ section{
     /* .about .row .counter .box{
         width: 100%;
     } */
+    .education .box-container .box{
+        width: 100%;
+        padding:1rem 8rem;
+        padding-left: 3rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+    }
 }
 
 @media screen and (max-width: 320px) {
