@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap'); /* font-family : 'Roboto', sans-serif */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto:wght@100;300;500&display=swap'); /* 'Dancing Script', cur */
+@import url('card.css');
 
 :root{
     --white: #fff;
