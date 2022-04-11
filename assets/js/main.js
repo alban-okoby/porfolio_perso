@@ -7,7 +7,7 @@ $(document).ready(function() {
     });
 
     $(window).on('scroll load', function() {
-        $('menuIcon').removeClass('fa-times');
+        $('#menuIcon').removeClass('fa-times');
         $('header').removeClass('toggle');
     })
 })
