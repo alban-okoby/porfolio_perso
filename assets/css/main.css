@@ -280,16 +280,37 @@ section{
     overflow: hidden;
     margin: 2rem 0;
     border-radius: 3rem;
-    border-top: solid .3rem white;
-    border-bottom: solid .3rem var(--yellow); 
+    border-bottom: solid .3rem var(--white);
+    border-top: solid .3rem var(--yellow);
+    justify-content: center;
 }
 .portfolio .box img{
     width: 100%; height: 100%;
     object-fit: cover;
+    transform: scale(.81);
+    border-radius: 3rem;
 }
 .portfolio .box img:hover{
-    transform: scale(1.2);
+    transform: scale(1);
 }
+.portfolio .box img:hover+p{
+    color: var(--black) !important;
+    transform: translate(6.5rem, -25rem);
+}
+.portfolio .box p{
+    color: var(--black);
+    background-color: var(--yellow);
+    border-radius: 3rem;
+    font-size: 1.8rem;
+    position: absolute;
+    text-align: center;
+    transform: translate(6.5rem, -23rem);
+    font-family: 'Dancing Script', cur;
+    font-weight: 500;
+    padding: .1rem .5rem;
+    letter-spacing: .5rem;
+}
+
 /* End porfolio style section */
 
 /* Media Queries */
