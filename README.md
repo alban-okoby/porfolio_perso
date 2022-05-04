@@ -8,3 +8,4 @@
  
   <img align="center" src="https://github.com/alban-okoby/images_projects/blob/main/template_portfolio/home.JPG" />
 
+<img align="center" src="https://github.com/alban-okoby/images_projects/blob/main/template_portfolio/about.JPG" />
