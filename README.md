@@ -29,5 +29,12 @@ Section home
 Section education
    <img align="center" src="https://github.com/alban-okoby/images_projects/blob/main/template_portfolio/sm_education.JPG" />
    
+ <a href="https://github.com/alban-okoby/images_projects">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=alban-okoby&repo=images_projects/" />
+</a>
+ <a href="https://github.com/alban-okoby/images_projects">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=alban-okoby&repo=alban-okoby/images_projects/tree/main/template_portfolio" />
+</a>
+   
     
 
