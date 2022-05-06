@@ -28,13 +28,17 @@ Section home
    <img align="center" src="https://github.com/alban-okoby/images_projects/blob/main/template_portfolio/sm_portfolio.JPG" />
 Section education
    <img align="center" src="https://github.com/alban-okoby/images_projects/blob/main/template_portfolio/sm_education.JPG" />
-   
- <a href="https://github.com/alban-okoby/images_projects">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=alban-okoby&repo=images_projects/" />
+<a href="https://github.com/alban-okoby/template_portfolio">
+  <img align="center" src="https://github.com/alban-okoby/images_projects/raw/main/template_portfolio/sm_header.jpg" />
+</a> 
+ <a href="https://github.com/alban-okoby/template_portfolio">
+  <img align="center" src="https://github.com/alban-okoby/images_projects/raw/main/template_portfolio/sm_home.jpg" />
 </a>
- <a href="https://github.com/alban-okoby/images_projects">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=alban-okoby&repo=alban-okoby/images_projects/tree/main/template_portfolio" />
+ <a href="https://github.com/alban-okoby/template_portfolio">
+  <img align="center" src="https://github.com/alban-okoby/images_projects/blob/main/template_portfolio/sm_about.JPG" />
+ <img align="center" src="https://github.com/alban-okoby/images_projects/blob/main/template_portfolio/sm_portfolio.JPG" />
 </a>
-   
+
+
     
 
