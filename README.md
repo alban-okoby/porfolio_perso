@@ -18,7 +18,7 @@ Section Works ou Portfolio
 ### Sur mobiles
 #### Section de navigation
    <img align="center" src="https://github.com/alban-okoby/images_projects/blob/main/template_portfolio/sm_header.jpg" />
-### Section home
+Section home
    <img align="center" src="https://github.com/alban-okoby/images_projects/blob/main/template_portfolio/sm_home.jpg" />
    
 ### Section about
@@ -26,7 +26,7 @@ Section Works ou Portfolio
  
 ### Section portfolio
    <img align="center" src="https://github.com/alban-okoby/images_projects/blob/main/template_portfolio/sm_portfolio.JPG" />
- ### Section education
+Section education
    <img align="center" src="https://github.com/alban-okoby/images_projects/blob/main/template_portfolio/sm_education.JPG" />
    
     
