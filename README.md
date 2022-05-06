@@ -3,7 +3,7 @@
  Un portfolio peronnel SPA prenant en compte le responsive. 
  Pas de framework utilisé. Face à face avec css pur.
  
- ## Sreen du projet
+ ## Sreenshots du projet
  
 #### Section Accueil 
    <img align="center" src="https://github.com/alban-okoby/images_projects/blob/main/template_portfolio/home.JPG" />
@@ -14,3 +14,7 @@ Section Works ou Portfolio
  Section Education ou Formation
    <img align="center" src="https://github.com/alban-okoby/images_projects/blob/main/template_portfolio/education.JPG" />
    
+#SUR MOBILE
+#Section home
+    <img align="center" src="https://github.com/alban-okoby/images_projects/blob/main/template_portfolio/sm_home.PNG" />
+
