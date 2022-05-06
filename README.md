@@ -5,6 +5,7 @@
  
  ## Sreenshots du projet
  
+ ## Sur grandes résolutions
 #### Section Accueil 
    <img align="center" src="https://github.com/alban-okoby/images_projects/blob/main/template_portfolio/home.JPG" />
 Section About 
@@ -14,7 +15,9 @@ Section Works ou Portfolio
  Section Education ou Formation
    <img align="center" src="https://github.com/alban-okoby/images_projects/blob/main/template_portfolio/education.JPG" />
    
-## SUR MOBILE
-Section home
-    <img align="center" src="https://github.com/alban-okoby/images_projects/blob/main/template_portfolio/sm_home.png" />
+### Sur mobiles
+#### Section de navigation
+    <img align="center" src="https://github.com/alban-okoby/images_projects/blob/main/template_portfolio/sm_header.jpg" />
+#### Section home
+    <img align="center" src="https://github.com/alban-okoby/images_projects/blob/main/template_portfolio/sm_home.jpg" />
 
