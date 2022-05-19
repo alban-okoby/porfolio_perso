@@ -12,7 +12,7 @@ Section About
    <img align="center" src="https://github.com/alban-okoby/images_projects/blob/main/template_portfolio/about.JPG" />
 Section Portfolio
    <img align="center" src="https://github.com/alban-okoby/images_projects/blob/main/template_portfolio/portfolio.JPG" />
- Section Education ou Formation
+ Section Education
    <img align="center" src="https://github.com/alban-okoby/images_projects/blob/main/template_portfolio/education.JPG" />
    
 ### Sur mobiles
