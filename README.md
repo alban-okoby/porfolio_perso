@@ -16,7 +16,7 @@ Section Portfolio
    <img align="center" src="https://github.com/alban-okoby/images_projects/blob/main/template_portfolio/education.JPG" />
    
 ### Sur mobiles
-#### Nous avons pris des screens de différents mobiles dans le seul but de prouver le responsive du template
+#### Nous avons pris des screens de différents mobiles dans le seul but de prouver l'adaptabilité et le responsive du template
 <p align="center">
     <a href="#">
         <img align="center" src="https://github.com/alban-okoby/images_projects/raw/main/template_portfolio/sm_header.jpg" />
