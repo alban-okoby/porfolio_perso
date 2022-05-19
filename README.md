@@ -1,6 +1,6 @@
 # portfolio_perso
  
- Un template de portfolio personnel (SPA) prenant en compte le responsive. 
+ Un template portfolio personnel (SPA) prenant en compte le responsive. 
  Pas de framework utilisé. Face à face avec css pur.
  
  ## Sreenshots du projet
